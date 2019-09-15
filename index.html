@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+	body{
+		width: 100%;
+	}
+	.body-container{
+       box-shadow:3px 2px 2px 3px gray;
+       font-family: sans-serif;
+       width:80%;
+	}
+	.logo{
+		
+		padding :  20px 20px;
+		background: rgb(217,85, 131);
+	}
+	.hero{
+		background-image: url('watch.jpg');
+		padding: 50px 10px;
+		
+		background-size: cover;
+		
+	}
+	#hero-quote{
+		font-weight: bold;
+		font-size: 150%;
+		margin : -30px 0 0 0;
+		opacity: 0.8;
+		color: white;
+		padding-bottom: 40%;
+		transition: margin 4s; 
+	}
+	blockquote{
+		text-align: center;
+        margin-top: 30px;
+        width: 70%;
+        color:gray;
+	}
+	label{
+		text-align: right;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	.action{
+		background-image: linear-gradient(to right, rgb(244,190,64),rgb(247,200,89)) ;
+		padding: 20px 50px;
+		font-weight: bold;
+		color: white;
+		font-size: 25px; 
+		border-radius: 20px;
+		margin: 40px 0px;
+		box-shadow: 1px 1px 2px 1px gray;
+		transition: font-size, padding 1s;
+		
+	}
+	.action:hover {
+		cursor: pointer;
+		font-size: 30;
+		padding: 24px 55px;
+		
+		opacity: 0.9;
+
+	}
+	.blogpost{
+		width:80%;
+		padding:28px;
+		font-family: serif;
+		font-weight: 25px;
+	}
+	p{
+		margin: 20px
+	}
+	.footer-container{
+		
+		padding :  30px 20px 20px 10px;
+		background: rgb(217,85, 131);
+	    font-weight: bold;
+	    font-size: 20px;
+		margin-top: 20px;
+		box-shadow:1px 1px 2px 2px gray;
+       font-family: sans-serif;
+       width:80%;
+       margin-bottom: 30px;
+		
+	}
+	.social-container{
+		margin: 30px 20px 20px 20px;
+	}
+	.social{
+		width: 40px;
+		margin: 1px 5px;
+		border-radius: 5px;
+	}
+
+	#myphoto{
+		width: 150px;
+		border-radius: 50%;
+	}
+	#popup{
+		position: fixed;
+		z-index: 1;
+		top:-100px;
+		padding: 20px 20px;
+		color:  rgb(244,190,64);
+		font-weight: bold;
+		transition: top 3s;  
+		background: white;
+		border-radius: 5px;
+		box-shadow: 2px 2px 3px 2px gray;
+		 width: 30%;
+		 font-size: 25px;
+
+	}
+	.side-butt{
+		position: fixed;
+		width: 15%;
+		left:0px;
+		top:17%;
+		
+
+	}
+	
+	#menu, #home,#contact,#about{
+           width:80px;
+       background: white;
+       border-radius: 14px;
+       box-shadow: 1px 1px 3px 2px gray;
+       font-weight: bold;
+       font-size: 15px;
+       padding: 4px 5px; 
+       position: relative;
+       right: 0px;
+       margin-top: 10px;
+       cursor: pointer;
+       transition: margin 3s; 
+
+	}
+	#menu{
+		background:rgb(244,190,64);
+	}
+	#home,#contact,#about{
+		margin-left: -70px;
+	    opacity: 0.8;
+
+	}
+	#home:hover,#contact:hover,#about:hover{
+			    opacity: 1;
+			    background: rgb(221,225,222);
+	}
+
+</style>
+<head>
+	<title>Dessanger</title>
+</head>
+<body>
+	
+	<center>
+       <div class="body-container">
+       	 <div class="logo"><h1><center>
+       	 	<img width='50px' src="LOGO WEB.png"><br>Dessanger</center></h1></div>
+       
+
+       <main>
+       	<div class="main-container">
+       		<div align="center" class="hero">
+       			<h2 align="center" id="hero-quote" > We dont get in life what we want,  we get in life what we are </h2>
+       		</div>
+       		<blockquote   class="intro-quotes">
+       			 when life pushes you to the ground... look up. Because if you can look up you can get Up
+
+       		</blockquote><label >~Les Brown</label>
+
+             <br><br><Br>
+             <blockquote   class="intro-quotes">
+       			 In life, the most uncomfortable situations are the most Important
+
+       		</blockquote><label >Tim Ferriss</label><br><br><br>
+       		   
+              <button class="action"> subscribe</button>
+              <div class="blogpost">
+              	<img id='myphoto' src="desmond.jpg">
+              	<fieldset>
+              	<p> Imagine if you could harness the power to double your grades, or even triple it. That would be great, wouldn’t it ? the more fun is that, you don’t have to be an A student to benefit from that, Absolute anyone can have awesome grades. As a matter of fact this book will make you understand that words like ‘average’ student and ‘below average’ are just labels that have been given to you based on your current performance in class. Its all a mindset thing. This Labels are often very appealing since they help us justify why we cant perform like the few of the class who hit the records every single time.</p>
+              	<label>Oben Desmond</label>
+              	</fieldset>
+              </div>
+              <br>
+              <h2><strong>Thank you for visiting our Page </strong></h2>
+       	     <button class="action">About Me</button>
+           </div>
+       </center>
+       </main>
+       <footer>
+       	<center>
+       	<div align="center" class="footer-container">
+       		contact me :
+       		<br>My email:  oben.desmond@yahoo.com
+       	     <div class="social-container">
+       	     	<a href="#"><img class="social" src="fb.png"></a>
+       	     	<a href="#"><img style="width: 60px" class="social" src="youT.png"></a>
+
+       	     </div>
+
+       	</div>
+     
+        
+
+
+       	<div id="popup">
+       		 welcome
+
+       	
+       </footer>
+
+         </div>
+
+       	</center>
+        </div>
+       	 <div class="side-butt"
+       	 >
+		    	  	<button id="menu" onmouseover="show()">menu</button><br>
+		    	  	<button id="home">home</button><br>
+        	 <button id="contact">contact</button><br>
+        	 <button id="about">About</button><br>
+        	  
+        	  
+         </div>
+        
+
+       <script type="text/javascript">
+       	var val = 20;
+       	setTimeout(()=>{
+		 document.getElementById('popup').style.top=val + 'px';
+       	},2000);
+       	
+       	setTimeout(()=>{
+		 document.getElementById('hero-quote').style.margin='40px 0px 0px 0px';
+       	},10);
+
+       	setTimeout(()=>{
+		 document.getElementById('popup').style.top=-100+ 'px';
+       	},10000);
+
+
+       	function show(){
+       		setTimeout(()=>{
+		 document.getElementById('home').style.margin='10px 0px 0px 19px';
+		 document.getElementById('menu').style.margin='10px 0px 0px -70px';
+		    document.getElementById('contact').style.margin='10px 0px 0px 12px';
+		    document.getElementById('about').style.margin='10px 0px 0px 6px';
+       	},10);
+
+       		setTimeout(()=>{
+		 document.getElementById('home').style.margin='10px 0px 0px -70px';
+		  document.getElementById('menu').style.margin='10px 0px 0px 0px';
+		 
+		    document.getElementById('contact').style.margin='10px 0px 0px -70px';
+		    document.getElementById('about').style.margin='10px 0px 0px -70px';
+
+       	},10000);
+       	}
+	</script>
+       
+</body>
+</html>
